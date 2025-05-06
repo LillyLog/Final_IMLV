@@ -1,1 +1,24 @@
-# Conclusion
+# Conclusion and Future Directions
+
+This chapter summarizes the key findings from the analysis of NYC traffic congestion using multiple interpretability methods and outlines promising directions for future research.
+
+## Summary of Key Findings
+
+1. **Temporal patterns dominate traffic prediction**. Time of day, day of week, and seasonal factors were the most important predictors across all interpretability methods. The morning and evening rush hours show distinct congestion patterns that vary by borough. This makes sense, as the morning rush hour is when people are going to work and the evening rush hour is when people are coming home from work.
+
+2. **Spatial variations require localized approaches**. Each borough exhibits unique traffic patterns influenced by its geography, infrastructure, and commuter flows. Manhattan shows the highest overall volume but also the most predictable patterns, while outer boroughs show more sensitivity to specific conditions. This fits with the real world, as Manhattan is far more dense than other boroughs, like Queens, and has many people commuting in and out of the city.
+
+3. **Weather influences traffic in complex ways**. Temperature and precipitation interact with temporal and spatial factors to affect congestion. Moderate rainfall increases congestion during rush hours, while extreme temperatures generally reduce traffic volume.
+
+4. **Interpretability methods show strong agreement**. Despite their different approaches, SHAP, LIME, and traditional feature importance methods generally identified the same key factors, enhancing confidence in the findings.
+
+5. **Machine learning models can predict traffic with high accuracy**. The best model achieved R² values of approximately 0.85, demonstrating that NYC traffic patterns, while complex, are predictable with appropriate features.
+
+## Limitations of the Current Study
+
+While the analysis provides valuable insights, several limitations should be acknowledged:
+
+- Data granularity
+- Feature limitations
+- Model simplifications
+
