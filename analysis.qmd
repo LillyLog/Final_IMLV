@@ -1,6 +1,6 @@
 # Model Development and Interpretation
 
-This chapter describes the methodology for building predictive models of NYC traffic congestion and applying multiple interpretability techniques to understand the key drivers of traffic patterns.
+This chapter is on the predictive models to look into the factors driving NYC traffic congestion.
 
 ## Setup
 Load the necessary libraries and preprocessed data:
@@ -214,11 +214,12 @@ performance_df
 ```
 
 ## Model Performance Visualization
-Visualize the performance of our models:
+Visualize the performance of the models:
 ```{r}
 #| label: model-performance-viz
 #| fig.width: 10
 #| fig.height: 6
+#| eval: false
 
 # Plot R² comparison
 ggplot(performance_df, aes(x = Model, y = R2, fill = Model)) +
